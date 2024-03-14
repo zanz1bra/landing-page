@@ -74,10 +74,19 @@ button {
     width: 100px;
 }
 
+.subtitle {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    margin: 50px auto;
+    text-align: center;
+}
+
 .container {
     display: flex;
     justify-content: center;
     gap: 52px;
+    margin-bottom: 150px;
 }
 
 .image-text {
@@ -86,9 +95,15 @@ button {
 }
 
 .photo {
-    border: 2px solid rgb(0, 174, 255);
+    border: 3px solid rgb(80, 187, 223);
     border-radius: 10px;
     height: 150px;
     width: 150px;
     margin: auto;
+}
+
+.text {
+    margin: 10px;
+    color: rgb(66, 66, 66);
+    font-size: 15px;
 }
