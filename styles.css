@@ -73,3 +73,22 @@ button {
     height: 36px;
     width: 100px;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.image-text {
+    width: 200px;
+    text-align: center;
+}
+
+.photo {
+    border: 2px solid rgb(0, 174, 255);
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
