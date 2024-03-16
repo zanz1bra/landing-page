@@ -1,4 +1,4 @@
-* {outline: 3px solid red}
+/* * {outline: 3px solid red} */
 
 body {
     font-family: "Roboto";
@@ -65,7 +65,7 @@ ul {
     background-color: rgb(151, 151, 163);
 }
 
-button {
+.one {
     background-color: #3882F6;
     color:#F9FAF8;
     font-weight: bold;
@@ -84,6 +84,7 @@ button {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 52px;
     margin-bottom: 150px;
@@ -126,4 +127,33 @@ button {
     font-size: 20px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+.action {
+    background-color: #3882F6;
+    display: flex;
+    margin: 100px 250px;
+    padding: 50px 100px;
+    color: #E5E7EB;
+    justify-content: space-evenly;
+    border-radius: 10px;;
+}
+
+.call {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sign-up {
+    font-size: 15px;
+}
+
+.two {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 5px;
+    border: 3px solid #E5E7EB;
+    font-weight: bold;
+    height: 36px;
+    width: 100px;
 }
