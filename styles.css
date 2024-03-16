@@ -1,7 +1,7 @@
-/* * {outline: 3px solid red} */
-
 body {
     font-family: "Roboto";
+    margin: 0;
+    padding: 0;
 }
 
 .header {
@@ -156,4 +156,13 @@ ul {
     font-weight: bold;
     height: 36px;
     width: 100px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
